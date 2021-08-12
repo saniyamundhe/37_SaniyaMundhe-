@@ -27,12 +27,9 @@ public class StaticBlockTest
 public static void main(String[] args) 
 { 
 // Create an object of class. 
-   new StaticBlockTest();
+      new StaticBlockTest();
 
 // Create another object of class and pass an integer argument value. 
- 
-  new StaticBlockTest(20);  
-
-
-  } 
+      new StaticBlockTest(20);  
+ } 
 }
