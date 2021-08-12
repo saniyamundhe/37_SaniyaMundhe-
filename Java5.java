@@ -19,7 +19,7 @@ public class Main {
         System.out.println("\nFloat maxvalue: "+Float.MAX_VALUE+"\t FloatMinvalue:"+Float.MIN_VALUE+" \tFloatsize"+Float.SIZE);
         
          //Doublee Max Min Size 
-         
+        
         System.out.println("\nDouble maxvalue: "+Double.MAX_VALUE+"\tDouble Minvalue:"+Double.MIN_VALUE+"\tDouble size:"+Double.SIZE);
         
          //Character Max Min Size 
