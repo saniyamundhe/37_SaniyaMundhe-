@@ -1,0 +1,19 @@
+7 a:- Answer- 
+         i is 11, and n is 0.
+
+7b:-Answer
+       : i is 11, and n is 1.
+      When we use postfix increment operator it will first increment value of i i.e 11 and then 11% 5 = 1 so 1  will be stored in n.
+      In other case of prefix operator it will perform 10%5 first and store 0 in n i.e n=0
+
+
+9 Answer:-
+
+        because the prefix version  ++ evaluates to the incremented value. The next line, System.out.println(i++); evaluates to the current value 6, then increments by one.
+
+
+10 Answer:-
+        aValue = 8933.234; // assignment statement aValue is assigned by value 8933.234 
+        aValue++; // increment statement  
+        System.out.println("Hello World!"); // method invocation statement here the simply print the statement Hello world! 
+        Bicycle myBike = new Bicycle(); // object creation statement 
