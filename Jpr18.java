@@ -1,23 +1,25 @@
-public class JPR18 {
-    public static void main(String[] args) {
-        int y1 =5;
-        int y2=3;
-        int amount=161258;
+public class jpr18
+{
+public static void main(String[] args)
+{		
+int principle= 161258;
+double rate=0.05d;
 
-        float EMI;
-        //calculating emi for 5 years:
-        float r=(5.0f/(12*100));
-        float rpl1=1+r;
-        float num= (float) (amount*r*Math.pow(rpl1,60));
-        float den= (float) (Math.pow(rpl1,60)-1);
-        EMI=num/den;
-        System.out.println("EMI for amount "+amount+" of "+y1+" Years is: "+EMI);
-        //calculating EMI for 3 years:
-        r=(5.0f/(12*100));
-        rpl1=1+r;
-        num= (float) (amount*r*Math.pow(rpl1,36));
-        den= (float) (Math.pow(rpl1,36)-1);
-        EMI=num/den;
-        System.out.println("EMI for amount "+amount+" of "+y2+" Years is: "+EMI);
-    }
+double EMI;
+ int t1=3; //Time is 3 years
+ int t2=5; //Time is 5 years
+rate=rate/(12*100);
+//The EMI generated for 3 years
+
+t1=t1*12;
+
+EMI= (principle*rate*Math.pow(1+rate,t1));
+ System.out.print(" EMI for 3 years is= "+EMI); 
+
+//The EMI generated for 5 years
+t2=t1*12;
+
+EMI= (principle*rate*Math.pow(1+rate,t2));
+System.out.print(" EMI for 5 years is=" +EMI);
 }
+} 
