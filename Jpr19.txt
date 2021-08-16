@@ -1,0 +1,54 @@
+19:-Consider the following code snippet.
+
+if (aNumber >= 0)
+    if (aNumber == 0)
+        System.out.println("first string");
+else System.out.println("second string");
+System.out.println("third string");
+
+a: What output do you think the code will produce if aNumber is 3?
+Answer:- 
+        If a number is 3  then the output will be the-
+          second string
+          third string
+   
+
+b: Write a test program containing the previous code snippet; make aNumber 3. What is the output of the program? Is it what you predicted? Explain why the output is what it is; in other words, what is the control flow for the code snippet?
+
+The output of code after  aNumber is 3:
+      second string
+       third string
+
+ It is the example of nested if else. The first if statement is aNumber>=0 that means 3 is greater than equal to 0. Thus second string is displayed 
+And the second if statement is fails because aNuber==0 3 is not equal to 0.
+Last println completely outside of any if statement, so it always gets executed, and thus third string is always displayed. 
+
+
+c-
+if (aNumber >= 0)
+    if (aNumber == 0)
+        System.out.println("first string");
+    else
+        System.out.println("second string");
+
+System.out.println("third string");
+
+
+
+d:-
+
+public class jpr19
+  {
+      public static void main(String[] args)
+	{
+		int aNumber=3;
+   if (aNumber>= 0)
+    if(aNumber== 0)
+        System.out.println("first string");
+    else
+        System.out.println("second string");
+
+ System.out.println("third string");
+}
+}
+
