@@ -72,12 +72,7 @@ class Robot implements robot3
 
 class robot extends Robot 
 {
-	
-	
-	/* 
-	 We cannot override the final method
-	 
-	*/
+
 	void show()
 	{
 		System.out.println("Features of the "+name+" robot........!!!!");
