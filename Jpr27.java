@@ -22,7 +22,7 @@ interface robot1
 	String Robo1="Robot Systems Technology Branch";
 
 		
-}//end First_interface 
+} 
 
 interface robot2 extends robot1
 {
