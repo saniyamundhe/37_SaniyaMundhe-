@@ -1,9 +1,9 @@
 public class VoterAgeLimit
     {
     
-     void printstate(int age){
+     void Eligibility (int age){
         try{
-            if(age>21l){
+            if(age>18){
                 System.out.println("Voter are eligible to vote...");
             }
             else{
@@ -22,6 +22,6 @@ public class VoterAgeLimit
     }
     public static void main(String[] args) {
         VoterAgeLimit obj=new VoterAgeLimit();
-        obj.printstate(27);
+        obj.Eligibility (22);
     }
 }
